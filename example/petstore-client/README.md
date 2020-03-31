@@ -1,3 +1,9 @@
+# petstore-client
+
+A haskell api client for the swagger petstore server.
+
+This package was generated using [openapi-hs-generator](https://github.com/obsidiansystems/openapi-hs-generator), which is built on the [openapi-generator](https://openapi-generator.tech/) and [nix](https://nixos.org).
+
 ### Modules
 
 | MODULE              | NOTES                                               |

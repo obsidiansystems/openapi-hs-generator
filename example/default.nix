@@ -11,7 +11,7 @@ in
   }).overrideAttrs (attrs: {
     # Below, we modify the generated readme file
     installPhase = attrs.installPhase + ''
-      sed -i\'\' -n '/^###\ Modules/,$p' $out/README.md
+      sed -i -n '/^###\ Modules/,$p' $out/README.md
       echo "# ${packageName}
 
       A haskell api client for the swagger petstore server.
