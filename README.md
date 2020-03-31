@@ -7,7 +7,7 @@ Generate haskell api client libraries from OpenAPI/swagger spec files.
 ### Command line
 
 ```bash
-nix-build /path/to/openapi-hs-generator.nix --arg pkgs 'import /path/to/nixpkgs {}' --arg specFile /path/to/specFile --argstr packageName myPackage --argstr baseModule MyPackage
+nix-build /path/to/openapi-hs-generator --arg pkgs 'import /path/to/nixpkgs {}' --arg specFile /path/to/specFile --argstr packageName myPackage --argstr baseModule MyPackage
 ```
 
 ### nix file for a given API

@@ -1,4 +1,4 @@
-{ petstore-client = import ../openapi-hs-generator.nix {
+{ petstore-client = import ../. {
     pkgs = (import ./reflex-platform {}).nixpkgs;
     specFile = builtins.fetchurl {
       url = "https://petstore.swagger.io/v2/swagger.json";
