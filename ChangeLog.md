@@ -2,4 +2,4 @@
 
 ## 0.1.0.0
 
-* First version. Accepts yaml and json spec files.
+* First version. Accepts yaml and json spec files. Includes petstore-client example.
